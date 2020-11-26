@@ -3,7 +3,7 @@
 
 <!-- 
 
-Page    : index / Fluid
+Page    : index video / Fluid
 Version : 1.0
 Author  : Surjith S M
 URI     : https://www.templatemonster.com/authors/surjithctly
@@ -36,8 +36,18 @@ URI     : https://www.templatemonster.com/authors/surjithctly
 <body>
     <div class="animation anim-dark" data-aos="slide-effect-2">
         <div class="wrapper animation-inner">
-            <div class="background bg-one overlay">
+<div class="background">
+ <div class="video-container">
+        <div class="filter"></div>
+        <video poster="images/poster.jpg" id="bgvid" playsinline autoplay muted loop>
+            <source src="images/video.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="images/video.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
             </div>
+           
+   
+ 
             <!-- // end .background -->
             <div class="content-section d-flex justify-content-center align-items-center">
             <div class="v-lines">
@@ -235,7 +245,6 @@ NY 10009, USA</p><!-- // end .text-center -->
 </div>
 <!-- // End Subscribe Modal -->
 
-
 <!-- Contact Modal -->
 <div class="modal modal-center modal-dark" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -291,6 +300,7 @@ NY 10009, USA</p><!-- // end .text-center -->
   </div>
 </div>
 <!-- // End Contact Modal -->
+
 
 
 
