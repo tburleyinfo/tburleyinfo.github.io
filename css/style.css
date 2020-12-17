@@ -33,6 +33,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
+@font-face {
+  font-family: 'BEYNO Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('BEYNO Regular'), url('fonts/BEYNO.woff') format('woff');
+  }
+
 @media (max-width: 767px) {
   h1 {
     font-size: 2rem;
